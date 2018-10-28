@@ -1,0 +1,40 @@
+// Declaração da variáveis
+$primary: #F9C80E;
+$body-bg: #FFFFFF;
+
+
+.bg-logo{
+    background: #F9C80E
+}
+
+.jumbotron{
+    background-color: #197277!important
+}
+
+.text-custom-ligue{
+    font-size: 1.1rem
+}
+
+.text-custom-2 {
+    font-size:1.5rem
+}
+
+// VIDEO
+.video-background {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100
+}
+
+.video-texto {text-align: center;         
+    color: white
+}
+
+
+
+// Importação do Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
