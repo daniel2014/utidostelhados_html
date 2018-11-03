@@ -30,8 +30,41 @@ $body-bg: #FFFFFF;
     height: 100%;
 }
 
-.video-texto {text-align: center;         
+.video-texto {
+    text-align: center;
     color: white
+}
+
+//Link do texto sem sublinhado
+.link-underline-none{
+    a:link{text-decoration: none};
+}
+
+//Alterar Cor de Link's
+.link-telefone{
+    color: #FFFFFF;
+
+}
+.link-color-email{
+    color: #FFFFFF;
+
+}
+
+//Links Redes Social's
+.instagram-color{
+    color: indianred;
+}
+
+.facebook-color{
+    color: #005cbf;
+}
+
+.pinterest-color{
+    color: #721c24;
+}
+
+.goolgle-plus-color{
+  color: firebrick;
 }
 
 

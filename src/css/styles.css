@@ -23,6 +23,27 @@
   text-align: center;
   color: white; }
 
+.link-underline-none a:link {
+  text-decoration: none; }
+
+.link-telefone {
+  color: #FFFFFF; }
+
+.link-color-email {
+  color: #FFFFFF; }
+
+.instagram-color {
+  color: indianred; }
+
+.facebook-color {
+  color: #005cbf; }
+
+.pinterest-color {
+  color: #721c24; }
+
+.goolgle-plus-color {
+  color: firebrick; }
+
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
