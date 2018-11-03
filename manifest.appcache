@@ -1,0 +1,11 @@
+CACHE MANIFEST
+# 24/04/2012 v1.0
+index.html
+Logo_1920x309.png
+  
+#NETWORK:
+#login.php
+  
+FALLBACK:
+#a primeira URL é o recurso a segunda o substituto
+/public_html  /404.html
