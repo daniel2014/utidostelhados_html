@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="UTI dos Telhados">
+  <component name="PublishConfigData" serverName="UTI dos Telhados" uploadOnCheckin="ef12d529-3ebb-43a9-81b0-0ccbc0afe9bf">
     <serverData>
       <paths name="UTI dos Telhados">
         <serverdata>
@@ -10,5 +10,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="UTI dos Telhados" />
   </component>
 </project>
