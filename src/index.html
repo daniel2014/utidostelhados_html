@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="pt-br"
       xmlns="http://www.w3.org/1999/xhtml"
->
+      manifest="cache.manifest">
+
 <head>
 
     <link rel="canonical" href="https://utidostelhados.com.br"/>
@@ -12,24 +13,10 @@
     <!-- Verificação de posse do site pelo Google Developer -->
     <meta name="google-site-verification" content="_ze_U2uV7fNeuaTtgzXxdN_mAU6CuYvqzWZr8o2Yl9g"/>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128184009-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'UA-128184009-1');
-    </script>
-
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>Construção e Reformas | Visita e Orçamentos Gratuitos‎ | (11)9.5211-2935</title>
+    <title>Construção e Reformas | Visitas e Orçamentos Gratuito | (11)9.5211-2935</title>
     <meta name="description"
           content="Reforma e Construção de Telhados Industriais e Residenciais. Pagamento Facilitado. Atendimento de Emergencia. Tipos: Telhas Cerâmicas, Onduladas, Termoacustica.">
     <meta name="autor" content="Anderson Araujo - Técnico em Edificações">
@@ -63,6 +50,12 @@
   ]
 }
 
+
+
+
+
+
+
     </script>
 
 
@@ -78,8 +71,29 @@
 
 
 <!-- Cabeçalho ------------------------------------------------------------------------------->
+
 <span>
-    <blockquote id="inicio" class="card text-center bg-dark rounded-0 mb-0">
+    <blockquote id="#inicio" class="card text-center bg-dark rounded-0 mb-0">
+        <div class="card-body my-0 py-2">
+            <h1 class="card-title d-inline font-weight-bold text-light my-0 py-0 pr-2 text-custom-ligue">Orçamento</h1>
+
+
+                <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511952112935"
+                   class="btn btn-sm btn-primary font-weight-bold pt-1">
+                    <img src="assets/icones/whatsapp-icon-seeklogo.com.svg" width="23px"> WhastssApp
+                </a>
+
+                <a href="mailto:utidostelhados@gmail.com?subject=Pedido%20de%20Orçamento"
+                   class="btn btn-sm btn-primary font-weight-bold pt-1">
+                    <img src="assets/icones/google-gmail-seeklogo.com.svg" width="30px"> E-mail
+                </a>
+        </div>
+    </blockquote>
+</span>
+
+
+<span>
+    <blockquote id="inicio" class="d-none invisible card text-center bg-dark rounded-0 mb-0">
         <div class="card-body my-0 py-2">
             <h1 class="card-title d-inline font-weight-bold text-light my-0 py-0 pr-2 text-custom-ligue">Orçamento</h1>
             <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511952112935"
@@ -90,7 +104,7 @@
 </span>
 
 
-<!-- Bloco NavBar Menu -->
+<!-- Bloco NavBar Menu --------------------------------------------------------------------->
 <div class="navbar fixed-static navbar-expand-md navbar-dark bg-primary">
 
     <div class="mr-sm-5 pr-sm-4"></div>
@@ -164,8 +178,8 @@
         </div>
 
         <div class="blockquote text-center video-texto mt-2">
-            <h1 class="h3 mb-0 text-primary">INSTAÇÃO DO TELHADO EM POLICARBONATO RETRÁTIL</h1>
-            <h4 class="h5 text-white px-1 mt-2">Lindo Desigin e Acabamento em Alumínio para diversos<cite
+            <h1 class="h3 mb-0 px-1 text-primary">INSTAÇÃO DO TELHADO EM POLICARBONATO RETRÁTIL</h1>
+            <h4 class="h5 text-white px-1 mt-2">Desigin e Acabamento em Alumínio para diversos<cite
                     title="Título da fonte"> Ambientes!</cite></h4>
         </div>
 
@@ -383,14 +397,17 @@
 
             <div class="container text-center link-underline-none">
                 <h1 class="text-light pb-3">Orçamento Gratuito!</h1>
-                <button type="submit" class="btn btn-outline-primary mb-3"><i class="fas fa-phone-square"></i><a
-                        class="link-telefone" href="tel:43391229"> 11 4339-1229</a></button>
-                <button type="submit" class="btn btn-outline-primary mb-3"><i class="fas fa-mobile"></i><a
-                        class="link-telefone" href="tel:952112935"> 11 9.5211-2935</a></button>
-                <button type="submit" class="btn btn-outline-primary mb-3"><i class="fas fa-at"></i><a
-                        class="link-color-email" href="mailto:utidostelhados@gmail.com?subject=Pedido%20de%20Orçamento">
-                    utidostelhados@gmail.com </a>
-                </button>
+
+                <a href="tel:1143391229"
+                   class="btn btn-outline-primary mb-3 mr-1"><i class="fas fa-phone-square"></i> 11 4339-1229</a>
+
+                <a href="tel:11952112935"
+                   class="btn btn-outline-primary mb-3 mr-1"><i class="fas fa-mobile"></i> 11 9.5211-2935
+                </a>
+
+                <a href="mailto:utidostelhados@gmail.com?subject=Pedido%20de%20Orçamento"
+                   class="btn btn-outline-primary mb-3"><i class="fas fa-at"></i> E-mail
+                </a>
 
             </div>
 
@@ -438,6 +455,21 @@
 <div class="text-center bg-dark pb-1 pt-2 text-light">
     <h6>copyright 2018 - UTI dos Telhados</h6>
 </div>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128184009-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-128184009-1');
+</script>
 
 
 <!-- Style do Topo deixei aqui abaixo para melhor performe do site-->
