@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="UTI dos Telhados" persistUploadOnCheckin="false">
+  <component name="PublishConfigData" serverName="UTI dos Telhados">
     <serverData>
       <paths name="UTI dos Telhados">
         <serverdata>
@@ -8,8 +8,9 @@
             <mapping deploy="/" local="$PROJECT_DIR$/src" web="/" />
           </mappings>
           <excludedPaths>
-            <excludedPath local="true" path="$PROJECT_DIR$/src/scss" />
             <excludedPath local="true" path="$PROJECT_DIR$/src/assets/video" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/assets/logo" />
+            <excludedPath local="true" path="$PROJECT_DIR$/src/scss" />
           </excludedPaths>
         </serverdata>
       </paths>

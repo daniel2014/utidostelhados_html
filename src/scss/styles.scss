@@ -41,14 +41,37 @@ $body-bg: #FFFFFF;
 }
 
 //Alterar Cor de Link's
+.text-color-preto{
+    color: #16181b;
+}
 .link-color-telefone{
     color: #FFFFFF;
-
 }
 .link-color-email{
     color: #FFFFFF;
-
 }
+
+.text-azul-logo{
+     color: #002752 !important;
+ }
+a.text-link-site:hover, a.text-dark:focus {
+    color: #002752 !important;
+}
+
+.text-vermelho-logo{
+    color: #982b00 !important;
+}
+a.text-vermelho-logo:hover, a.text-dark:focus {
+    color: #982b00 !important;
+}
+
+.fundo-slider{
+    background-image: url('/src/assets/image/Estrutura-de-Madeira-UTI-dos-Telhados_500x281.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-size: cover;
+}
+
 
 //Links Redes Social's
 .instagram-color{
@@ -67,6 +90,9 @@ $body-bg: #FFFFFF;
   color: firebrick;
 }
 
+.text-color-UTI{
+  color: #14205a;
+}
 
 
 // Importação do Bootstrap

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="ef12d529-3ebb-43a9-81b0-0ccbc0afe9bf" name="UTI dos Telhados" url="http://www.localhost:3000">
+      <webServer id="98bfeda4-d690-43cb-9157-7d51d4453515" name="UTI dos Telhados" url="http://www.localhost:3000">
         <fileTransfer host="ftp.utidostelhados.com.br" port="21" rootFolder="/public_html">
           <advancedOptions>
-            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" shareSSLContext="true" showHiddenFiles="true" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
